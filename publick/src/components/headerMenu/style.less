@@ -1,0 +1,81 @@
+@import "../../assets/styles/app.less";
+
+.app-header {
+  background: @header-bg-color;
+  height: 90px;
+  line-height: 42px;
+  padding: 0 10px 0 20px;
+  .logo {
+    img {
+      vertical-align: middle;
+      width: 123px;
+      height: 32px;
+    }
+    .header_line{opacity: 0.6;}
+  }
+  .ml_15{margin-right: 15px;}
+  .header_right_a{
+    font-size: 12px;
+    color: #BBBBBB;
+    cursor: pointer;
+  }
+  .ri_link{
+    color: #fff;
+   
+  }
+  .edaoVersion {
+    font-size: 16px;
+    color: #ffffff;
+    top: 2px;
+    position: relative;
+  }
+  .header_line {
+    margin: 0 12px;
+    color: #ffffff;
+  }
+  .merchant-user {
+    position: relative;
+    color: @header-mrzt-color;
+    text-align: right;
+    a {
+      color: #999;
+      margin-left: 3px;
+    }
+  }
+  .dg_mlr {
+    margin: 0 10px 0 0;
+  }
+  .emenuArea {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto 80px auto 30px;
+    vertical-align: top;
+  }
+  .header_a, .emenuArea a.header_a {
+    position: relative;
+    display: inline-block;
+    padding: 0 14px;
+    font-size: 14px;
+    span{
+      font-size: 14px;
+    }
+    color: #bbbbbb;
+  }
+
+  .header_a:hover, .emenuArea a.header_a:hover {
+    font-size: 14px;
+    color: #bbbbbb;
+    text-decoration: none;
+    background: #000000;
+  }
+
+  .emenuArea a.header_a.on {
+    color: #fff;
+    .header_aon {
+      border-bottom: 2px solid #fb535e;
+      padding: 0 0 8px 0;
+    }
+  }
+}
+
