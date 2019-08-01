@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Row, Col, Affix } from "antd";
 import { menu, hoverName } from "util/menu";
-import logo from "assets/images/icon/newlogo2.png";
-import "./style";
+// import logo from "assets/images/icon/newlogo2.png";
+// import "./style";
 
 export default class HeaderMenu extends React.PureComponent {
   constructor(props) {

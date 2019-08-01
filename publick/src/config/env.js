@@ -2,7 +2,7 @@ import ENV from "./environment";
 
 // 请求头，不需要修改
 const REQUEST_BASE_URL = {
-    pre: "https://idaspre.cnsuning.com",
+    pre: "http://47.97.248.35:80",
     xgpre: "https://idasgpre.cnsuning.com",
     sit: "https://idassit.cnsuning.com",
     prod: "https://zl.suning.com",

@@ -7,10 +7,6 @@
     "dll": "webpack -p --config webpack/webpack.dll.config.js --progress --profile --colors",
     "start": "node webpack/server.js",
     "server": "cross-env NODE_ENV=production node webpack/server.js",
-    "prettier": "prettier --write \"{src,mock}/**/*.{js,jsx,css,less}\"",
-    "build:analysis": "cross-env NODE_ENV=production webpack -p --config webpack/webpack.prd.config.js --profile --analysis --colors --display errors-only",
-    "build:prod": "cross-env NODE_ENV=production webpack -p --config webpack/webpack.prd.config.js --profile --terserconfig --colors --display errors-only",
-    "build:all": "cross-env NODE_ENV=production webpack -p --config webpack/webpack.prd.config.js --profile --analysis --terserconfig --colors --display errors-only",
     "build": "cross-env NODE_ENV=production webpack -p --config webpack/webpack.prd.config.js --profile --colors --display errors-only",
     "gulp": "cross-env NODE_ENV=production  gulp build",
     "gulp:prod": "cross-env NODE_ENV=production  gulp build --terserconfig"

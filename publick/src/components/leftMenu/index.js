@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { menu, hoverName } from "util/menu";
 import { leftMenuIcon } from "config/Config";
-import "../../assets/styles/fonts.less";
-import "./style";
+// import "../../assets/styles/fonts.less";
+// import "./style";
 
 export default class LeftMenu extends React.PureComponent {
   render() {

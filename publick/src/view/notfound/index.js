@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import "./index.less";
-import fourZeroFour from "assets/images/img/fourZeroFour.png";
+// import fourZeroFour from "assets/images/img/fourZeroFour.png";
 
 @connect(
   state => ({}),

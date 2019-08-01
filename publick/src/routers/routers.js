@@ -1,19 +1,21 @@
 export default [
   {
-    path: "/fuse/fsProductsCenter",
-    components: () => import("view/productCenter")
+    path: "/name/mingjzhang/a",
+    components: () => import("view/name/mingjzhang/Ming_a")
+  },{
+    path: "/name/mingjzhang/b",
+    components: () => import("view/name/mingjzhang/Ming_b")
+  },{
+    path: "/name/mingjzhang/c",
+    components: () => import("view/name/mingjzhang/Ming_c")
+  },{
+    path: "/name/mingjzhang/d",
+    components: () => import("view/name/mingjzhang/Ming_d")
+  },{
+    path: "/name/mingjzhang/e",
+    components: () => import("view/name/mingjzhang/Ming_e")
+  },{
+    path: "/name/zhouzhou/a",
+    components: () => import("view/name/zhouzhou/Zhou_a")
   },
-  {
-    path: "/fuse/fsProductsCenterNoAuth",
-    components: () => import("view/productCenter/ProductsCenterNoAuth")
-  },
-  {
-    path: "/fuse/fsProductsProcAndSalesNoAuth",
-    components: () => import("view/productCenter/ProductsCenterProcAndSalesNoAuth")
-  },
-  {
-    path: "/fuse/industryR/brandF",
-    components: () => import("view/industryR/industryRBrandF")
-  }
 ];
-
